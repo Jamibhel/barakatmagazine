@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BARAKAT — Collector's Birthday Edition · Volume 34</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
+  
+  <!-- Canvas Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  
+  <!-- Editorial Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating Luxury Navigation Deck -->
+  <header class="top-nav">
+    <a href="#cover" class="nav-brand">
+      <span class="nav-logo">BARAKAT</span>
+      <span class="nav-badge">VOL. 34</span>
+    </a>
+    
+    <nav class="nav-controls">
+      <button id="btn-view-scroll" class="btn-nav active" title="Editorial Web Storytelling">
+        📖 Editorial
+      </button>
+      <button id="btn-view-flipbook" class="btn-nav" title="Realistic Flipbook Mode">
+        📑 Flipbook
+      </button>
+      <button id="btn-print" class="btn-nav nav-item-hide-mobile" title="Print/Export Coffee Table Keepsake">
+        🖨️ Keepsake PDF
+      </button>
+      
+      <!-- Tribute Action Button -->
+      <button id="btn-open-tribute-modal" class="btn-nav primary">
+        ✍️ Leave a Tribute
+      </button>
+    </nav>
+  </header>
+
+  <!-- ==========================================
+       TOP 34TH BIRTHDAY MODELED REALISTIC CAKE & CANDLE CEREMONY
+       ========================================== -->
+  <section class="cake-hero-stage" id="cake-ceremony">
+    <p class="cake-tagline">✨ ROYAL CELEBRATION MOMENT FOR OUR QUEEN ✨</p>
+    <h2 class="cake-heading">Make a Wish, Aunty Barakat! 🎂</h2>
+    <p class="cake-subheading">Volume 34 · 34 Years of Grace, Radiance & Pure Starlight</p>
+    
+    <div class="modeled-cake-stage">
+      <!-- Floating 34 Crown Topper -->
+      <div class="cake-topper-crown">
+        <span class="topper-crown-icon">👑</span>
+        <span class="topper-number">34</span>
+      </div>
+
+      <!-- 3D Modeled 3-Tier Layered Celebration Cake -->
+      <div class="modeled-cake-3d" id="modeled-cake">
+        
+        <!-- Candles Row (10 Colorful Striped Birthday Candles Matching Reference) -->
+        <div class="cake-candles-rack">
+          <div class="striped-candle candle-c1">
+            <div class="candle-flame" id="flame-0"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+          <div class="striped-candle candle-c2">
+            <div class="candle-flame" id="flame-1"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+          <div class="striped-candle candle-c3">
+            <div class="candle-flame" id="flame-2"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+          <div class="striped-candle candle-c4">
+            <div class="candle-flame" id="flame-3"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+          <div class="striped-candle candle-c5">
+            <div class="candle-flame" id="flame-4"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+          <div class="striped-candle candle-c6 candle-tallest">
+            <div class="candle-flame" id="flame-5"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+          <div class="striped-candle candle-c7">
+            <div class="candle-flame" id="flame-6"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+          <div class="striped-candle candle-c8">
+            <div class="candle-flame" id="flame-7"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+          <div class="striped-candle candle-c9">
+            <div class="candle-flame" id="flame-8"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+          <div class="striped-candle candle-c10">
+            <div class="candle-flame" id="flame-9"></div>
+            <div class="candle-wick"></div>
+            <div class="candle-cylinder"></div>
+          </div>
+        </div>
+
+        <!-- Tier 1: Lavender Purple with Electric Blue Drip Glaze & Whipped Cream Dollops -->
+        <div class="modeled-tier tier-top-purple">
+          <!-- Top Surface Cream Dollops with Sprinkles -->
+          <div class="frosting-dollops-rim">
+            <div class="dollop"></div><div class="dollop"></div><div class="dollop"></div>
+            <div class="dollop"></div><div class="dollop"></div><div class="dollop"></div>
+            <div class="dollop"></div><div class="dollop"></div>
+          </div>
+          <!-- Electric Blue Drip Glaze -->
+          <div class="drip-icing drip-blue">
+            <svg viewBox="0 0 200 45" preserveAspectRatio="none" class="drip-svg">
+              <path d="M0,0 L200,0 L200,16 C190,16 186,34 178,34 C170,34 167,14 158,14 C150,14 146,38 138,38 C130,38 126,16 118,16 C110,16 106,35 98,35 C90,35 87,14 78,14 C70,14 66,40 58,40 C50,40 47,15 38,15 C30,15 26,32 18,32 C10,32 6,15 0,15 Z" fill="#00b0ff"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Tier 2: Turquoise Teal with Mango Orange Drip & Cream Dollops -->
+        <div class="modeled-tier tier-mid-teal">
+          <div class="frosting-dollops-rim">
+            <div class="dollop"></div><div class="dollop"></div><div class="dollop"></div>
+            <div class="dollop"></div><div class="dollop"></div><div class="dollop"></div>
+            <div class="dollop"></div><div class="dollop"></div><div class="dollop"></div>
+            <div class="dollop"></div>
+          </div>
+          <!-- Tangerine Orange Drip Glaze -->
+          <div class="drip-icing drip-orange">
+            <svg viewBox="0 0 270 48" preserveAspectRatio="none" class="drip-svg">
+              <path d="M0,0 L270,0 L270,18 C258,18 253,42 242,42 C231,42 227,15 215,15 C204,15 199,44 188,44 C177,44 172,16 161,16 C150,16 145,39 134,39 C123,39 118,14 107,14 C96,14 91,45 80,45 C69,45 64,17 53,17 C42,17 37,38 26,38 C15,38 10,16 0,16 Z" fill="#ff9800"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Tier 3: Strawberry Pink with Crimson Red Drip & Scalloped White Base -->
+        <div class="modeled-tier tier-bot-pink">
+          <div class="frosting-dollops-rim">
+            <div class="dollop"></div><div class="dollop"></div><div class="dollop"></div>
+            <div class="dollop"></div><div class="dollop"></div><div class="dollop"></div>
+            <div class="dollop"></div><div class="dollop"></div><div class="dollop"></div>
+            <div class="dollop"></div><div class="dollop"></div><div class="dollop"></div>
+          </div>
+          <!-- Crimson Red Strawberry Drip Glaze -->
+          <div class="drip-icing drip-crimson">
+            <svg viewBox="0 0 340 54" preserveAspectRatio="none" class="drip-svg">
+              <path d="M0,0 L340,0 L340,18 C325,18 319,48 305,48 C291,48 286,16 271,16 C257,16 251,51 237,51 C223,51 217,17 203,17 C189,17 183,46 169,46 C155,46 149,15 135,15 C121,15 115,53 101,53 C87,53 81,18 67,18 C53,18 47,45 33,45 C19,45 13,16 0,16 Z" fill="#e53935"/>
+            </svg>
+          </div>
+          <!-- White Scalloped Meringue Swirls around bottom -->
+          <div class="base-cream-scallops"></div>
+        </div>
+
+        <!-- Cake Platter Stand Foundation -->
+        <div class="cake-platter-stand"></div>
+      </div>
+    </div>
+
+    <!-- Ceremony Action & Birthday Toast -->
+    <div class="cake-action-area">
+      <button id="btn-blow-candles" class="cake-btn">
+        🎂 Make a Wish & Blow Out The Candles!
+      </button>
+      <div id="cake-wish-banner" class="cake-wish-banner">
+        <span class="wish-sparkle">✨</span>
+        <span>HAPPY 34TH BIRTHDAY AUNTY BARAKAT! 👑 May this new chapter bring boundless joy, elevation, divine health, and laughter! 🥂🤍</span>
+        <span class="wish-sparkle">✨</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Editorial Content Flow -->
+  <main class="magazine-container">
+
+    <!-- ==========================================
+         SPREAD 1: THE COVER (HIGH-FASHION MASTHEAD)
+         ========================================== -->
+    <section id="cover" class="spread-section cover-spread">
+      <img src="barakat pictures/@30.jpg" alt="Barakat Bello Cover Star" class="cover-bg-image" id="cover-star-img">
+      <div class="cover-overlay"></div>
+
+      <header class="cover-header">
+        <div class="cover-edition-line">
+          <span>SPECIAL BIRTHDAY ISSUE</span>
+          <span>VOLUME 34 · SEPTEMBER 2026</span>
+          <span class="nav-item-hide-mobile">THE COLLECTOR'S ARCHIVE</span>
+        </div>
+        <h1 class="cover-masthead">BARAKAT</h1>
+        <p class="cover-fullname">Bello Barakat Omolabake Abefe</p>
+        <p style="font-family: var(--font-display); font-size: 1.1rem; letter-spacing: 0.25em; color: #fff; margin-top: 0.6rem;">
+          MY SISTER TOO FINE ABEG! WHO WAN DEY DOUBT AM? 👑🔥
+        </p>
+      </header>
+
+      <div class="cover-body">
+        <div class="cover-stories">
+          <div class="cover-story-item">
+            <span class="story-label">SACRED MEMORIAL 🕊️</span>
+            <h2 class="story-title">For Daddy, PaJay: What Daddy Would Have Said</h2>
+          </div>
+          <div class="cover-story-item">
+            <span class="story-label">OUR LITTLE MOM 🤍</span>
+            <h2 class="story-title">Abdullah, Jamiu, and Nike Celebrate Our One and Only!</h2>
+          </div>
+          <div class="cover-story-item">
+            <span class="story-label">ACADEMIC EXCELLENCE 🎓</span>
+            <h2 class="story-title">Aunty Barakat, We Are So Proud of Where You Are Today!</h2>
+          </div>
+          <div class="cover-story-item">
+            <span class="story-label">FASHION & DRIP 💅✨</span>
+            <h2 class="story-title">If You Still Dey Doubt Am, Look At How Person Fine!</h2>
+          </div>
+        </div>
+
+        <div class="cover-cta">
+          <a href="#letter" class="btn-nav primary" style="padding: 0.65rem 1.5rem; font-size: 0.85rem;">
+            Open Collector's Issue ↓
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SPREAD 2: SIBLINGS' DEDICATION LETTER & TOC
+         ========================================== -->
+    <section id="letter" class="spread-section editorial-grid">
+      <div class="letter-content">
+        <span class="section-tag">DEDICATION 🤍</span>
+        <h2 class="letter-salutation">Dearest Aunty Barakat,</h2>
+        <p class="letter-lead">
+          Growing up, you were not just our big sister. You were our little mom. 🤍
+        </p>
+        <div class="letter-body">
+          <p>
+            You looked after us, guided us, and protected us growing up. We were young then, but today we understand all the sacrifices you made for us. 🥺🤍
+          </p>
+          <p>
+            This website is our little way of celebrating you. You always celebrate everyone else, but today is all about you! Happy 34th birthday to our one and only big sister! 🎉🥂
+          </p>
+        </div>
+        <div class="letter-signature-block">
+          <p class="letter-signoff">With all our love and deepest gratitude,</p>
+          <p class="letter-signature">Abdullah, Jamiu, and Nike 💕</p>
+        </div>
+      </div>
+
+      <aside class="toc-card">
+        <div>
+          <h3 class="toc-title">Table of Contents</h3>
+          <ul class="toc-list">
+            <li class="toc-item"><a href="#cover"><span class="chapter-name">I. The Masthead</span> <span class="page-num">01</span></a></li>
+            <li class="toc-item"><a href="#letter"><span class="chapter-name">II. Dedicated by Siblings</span> <span class="page-num">02</span></a></li>
+            <li class="toc-item"><a href="#roots"><span class="chapter-name">III. Baby Girl Throwback</span> <span class="page-num">03</span></a></li>
+            <li class="toc-item"><a href="#fathers-blessing"><span class="chapter-name">IV. For Daddy, PaJay</span> <span class="page-num">04</span></a></li>
+            <li class="toc-item"><a href="#siblings"><span class="chapter-name">V. Our Little Mom & Siblings</span> <span class="page-num">05</span></a></li>
+            <li class="toc-item"><a href="#heritage"><span class="chapter-name">VI. My Sister Too Fine! (Oríkì)</span> <span class="page-num">06</span></a></li>
+            <li class="toc-item"><a href="#scholar"><span class="chapter-name">VII. Proud of You (York)</span> <span class="page-num">07</span></a></li>
+            <li class="toc-item"><a href="#milestones"><span class="chapter-name">VIII. If You Still Dey Doubt Am</span> <span class="page-num">08</span></a></li>
+            <li class="toc-item"><a href="#sisterhood"><span class="chapter-name">IX. Enjoyment Gallorizzy</span> <span class="page-num">09</span></a></li>
+            <li class="toc-item"><a href="#guestbook"><span class="chapter-name">X. Tributes & Registry</span> <span class="page-num">10</span></a></li>
+          </ul>
+        </div>
+        <div style="margin-top: 2rem; border-top: 1px solid rgba(212, 175, 55, 0.2); padding-top: 1rem;">
+          <span style="font-size: 0.75rem; color: var(--gold-light); letter-spacing: 0.15em; text-transform: uppercase;">
+            Omolabake Abefe Edition · 34 Years 👑
+          </span>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ==========================================
+         SPREAD 3: BABY GIRL THROWBACK
+         ========================================== -->
+    <section id="roots" class="spread-section vintage-spread">
+      <div class="polaroid-frame">
+        <img src="barakat pictures/childhood.JPG" alt="Little Barakat Childhood Memory" class="polaroid-img">
+        <p class="polaroid-caption">Aunty Barakat as a Baby Girl 🤍</p>
+      </div>
+
+      <div class="vintage-text-col">
+        <span class="section-tag">THROWBACK 👶🤍</span>
+        <h2 class="vintage-title">Small But Mighty!</h2>
+        <blockquote class="vintage-quote">
+          “Na from small she don dey carry herself with respect! 😂🤍”
+        </blockquote>
+        <p class="vintage-story">
+          Look at that sweet smile! Long before all the big wins, Aunty Barakat has always been calm, loving, and reliable. Always our Queen! 👑✨
+        </p>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SPREAD 4: FOR DADDY, PAJAY (SACRED MEMORIAL)
+         ========================================== -->
+    <section id="fathers-blessing" class="spread-section fathers-spread">
+      <header class="fathers-header">
+        <span class="section-tag">THE SACRED TRIBUTE 🕊️</span>
+        <h2 class="font-title" style="font-size: clamp(2.2rem, 5vw, 3.8rem); color: var(--gold-light);">
+          For Daddy, PaJay
+        </h2>
+        <p class="font-body" style="font-size: 1.35rem; color: #dfdbd3; font-style: italic; margin-top: 0.5rem;">
+          What Daddy would have said to you today
+        </p>
+      </header>
+
+      <div class="fathers-grid">
+        <!-- Natural Uncropped Portrait of Daddy -->
+        <div class="baba-portrait-card">
+          <div class="baba-frame">
+            <img src="barakat pictures/dad/IMG_1116.PNG" alt="Daddy PaJay in Jerusalem Hat" class="baba-img">
+          </div>
+          <p class="baba-caption">Our Daddy, PaJay 🕊️</p>
+          <p class="baba-subcap">Smiling down with boundless pride.</p>
+        </div>
+
+        <div class="parchment-letter">
+          <p>
+            If Daddy were here today, he would just look at you, smile that quiet PaJay smile, and shake his head in pure pride.
+          </p>
+          <p>
+            He would look at where you are today, how well you carry yourself, your education, and how you looked after all of us.
+          </p>
+          <p>
+            We know wherever Daddy is, he is so proud of you, Barakat Omolabake. You protected his name, and you made him proud in every way.
+          </p>
+          <p class="baba-signature">
+            Keep shining, Aunty Barakat. Daddy is smiling down on you. 🕊️🤍
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SPREAD 5: OUR LITTLE MOM & THE SIBLINGS
+         ========================================== -->
+    <section id="siblings" class="spread-section siblings-spread">
+      <div class="siblings-top-grid">
+        <div class="pip-container">
+          <img src="barakat pictures/siblings and i.JPG" alt="Barakat, Abdullah, Jamiu, and Nike" class="pip-main-media">
+          <div class="pip-overlay-card">
+            <img src="barakat pictures/childhood.JPG" alt="Where it began - Aunty Barakat as our little mom">
+          </div>
+        </div>
+        <div>
+          <span class="section-tag">SIBLINGS 🤍</span>
+          <h2 class="font-title" style="font-size: clamp(2rem, 4vw, 3rem); color: #fff; line-height: 1.15;">
+            Our Little Mom, Aunty Barakat 🤍
+          </h2>
+          <blockquote class="font-body" style="font-size: 1.35rem; font-style: italic; color: var(--gold-light); margin: 1rem 0;">
+            “You took care of us like your own, and we will never take that for granted 💕”
+          </blockquote>
+          <p class="font-body" style="font-size: 1.25rem; line-height: 1.7; color: #ccc;">
+            Growing up, you were our little mom. You guided us, protected us, and always made sure we were okay. From Abdullah, Jamiu, and Nike: we love you so much, Aunty Barakat! 🤍
+          </p>
+
+          <div class="sibling-badge-grid">
+            <div class="sibling-badge-card">
+              <div class="badge-label">ABDULLAH 👑</div>
+              <div class="badge-desc">“Thank you for always having our backs, no matter what.”</div>
+            </div>
+            <div class="sibling-badge-card">
+              <div class="badge-label">JAMIU 🤍</div>
+              <div class="badge-desc">“Our sister, our second mom. We love you always!”</div>
+            </div>
+            <div class="sibling-badge-card" style="grid-column: span 2;">
+              <div class="badge-label">NIKE 🌸</div>
+              <div class="badge-desc">“My big sister and my role model forever. Happy 34th birthday!”</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SPREAD 6: MY SISTER TOO FINE ABEG! (ORÍKÌ ÀBÈFÉ)
+         ========================================== -->
+    <section id="heritage" class="spread-section heritage-spread">
+      <div class="pip-container">
+        <img src="barakat pictures/1a.jpg" alt="Barakat in Emerald and Orange Traditional Royalty" class="pip-main-media">
+        <div class="pip-overlay-card">
+          <video src="barakat pictures/1b.mp4" autoplay loop muted playsinline></video>
+        </div>
+      </div>
+
+      <div class="heritage-content">
+        <span class="section-tag" style="color: var(--gold-light);">ROYALTY IN HER BLOOD 👑💃</span>
+        <h2 class="heritage-title" style="font-size: clamp(2.3rem, 5vw, 3.4rem); line-height: 1.15;">
+          My Sister Too Fine Abeg! Who Wan Dey Doubt Am? 👑🔥
+        </h2>
+        <blockquote class="heritage-quote">
+          “Step aside! Yoruba royalty is in the building! Look at that emerald boubou and gele! 😍💃”
+        </blockquote>
+
+        <!-- Oríkì Àbẹ̀fẹ́ Card -->
+        <div style="background: rgba(0, 0, 0, 0.45); border: 1px solid var(--gold-primary); border-radius: 12px; padding: 1.75rem; margin-top: 1rem;">
+          <h4 class="font-display" style="color: var(--gold-light); font-size: 1.05rem; letter-spacing: 0.2em; margin-bottom: 0.85rem;">
+            ORÍKÌ ÀBẸ̀FẸ́ OMOLABAKE 📜✨
+          </h4>
+          <p class="font-serif-body" style="font-size: 1.3rem; line-height: 1.85; color: #fff; font-style: italic; margin-bottom: 1rem;">
+            Àbẹ̀fẹ́ o!<br>
+            Ẹni a bẹ̀ kí a tóó fẹ́, ẹni tí gbogbo ayé ń bẹ̀ láti nífẹ̀ẹ́.<br>
+            Ẹlẹ́yinjú ẹgẹ́, ọmọ ológo dídán.<br>
+            Àbẹ̀fẹ́ Ọmọlábákẹ́, ọmọ tí a bá kẹ́, tí a bá gẹ̀.<br>
+            Ìrìn rẹ ń fọlá hàn, ẹ̀rín rẹ ń mú inú dídùn wá sílé.<br>
+            Wà á gbó, wà á tọ́, wà á jẹun ọmọ pé lórí ilẹ̀.<br>
+            Àbẹ̀fẹ́, ayọ̀ rẹ kò ní d’omi láéláé!
+          </p>
+          <p class="font-serif-body" style="font-size: 1.1rem; line-height: 1.6; color: var(--gold-light); border-top: 1px dashed rgba(212, 175, 55, 0.35); padding-top: 0.85rem;">
+            <strong>English Translation:</strong><br>
+            (Àbẹ̀fẹ́! The one whom we plead and strive to love, the one sought after by all with deep devotion. The graceful eyed one, child of radiant honor. Àbẹ̀fẹ́ Ọmọlábákẹ́, the precious child destined to be pampered, cherished, and treated like royalty. Your graceful steps radiate honor, and your smile brings boundless joy to the home. You will live long, you will prosper, you will eat the fruits of your labor in health, and your joy will never run dry! 🤍✨)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SPREAD 7: AUNTY BARAKAT, WE ARE SO PROUD (YORK)
+         ========================================== -->
+    <section id="scholar" class="spread-section academic-spread">
+      <div class="academic-grid">
+        <div>
+          <span class="section-tag">EDUCATION & TRIUMPH 🎓🌹</span>
+          <h2 class="font-title" style="font-size: clamp(2.1rem, 4vw, 3.2rem); color: #fff; line-height: 1.2;">
+            Aunty Barakat, We Are So Proud of Where You Are Today! 🎓🌹
+          </h2>
+          <blockquote class="font-body" style="font-size: 1.45rem; font-style: italic; color: var(--gold-light); margin: 1rem 0;">
+            “Bagged that York degree and made the whole family proud! 📚🥂✨”
+          </blockquote>
+          <p class="font-body" style="font-size: 1.3rem; line-height: 1.85; color: #ccc;">
+            Seeing you walk across that stage at York University was one of our happiest days. Even with everything on your plate, you still pushed and finished strong. We will never stop bragging with you! 🎓🎉
+          </p>
+        </div>
+
+        <div class="academic-photo-grid">
+          <img src="barakat pictures/Graduation.jpg" alt="Barakat Graduation York University">
+          <img src="barakat pictures/Graduation (2).jpg" alt="Graduation Celebration">
+          <video src="barakat pictures/Graduation.mp4" autoplay loop muted playsinline></video>
+          <video src="barakat pictures/Graduation 5.mp4" autoplay loop muted playsinline></video>
+        </div>
+
+        <!-- Video Reel for Extra Graduation Memories -->
+        <div class="video-reel-scroll">
+          <video src="barakat pictures/Graduation (2).mp4" autoplay loop muted playsinline></video>
+          <video src="barakat pictures/Graduation (3).mp4" autoplay loop muted playsinline></video>
+          <video src="barakat pictures/Graduation (4).mp4" autoplay loop muted playsinline></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SPREAD 8: IF YOU STILL DEY DOUBT AM!
+         ========================================== -->
+    <section id="milestones" class="spread-section milestone-spread">
+      <header style="text-align: center; margin-bottom: 3rem;">
+        <span class="section-tag">UNMATCHED BEAUTY 💅✨💖</span>
+        <h2 class="font-title" style="font-size: clamp(2.3rem, 5vw, 3.6rem); color: #fff;">
+          If You Still Dey Doubt Am, Look At How Person Fine! 💅✨💖
+        </h2>
+      </header>
+
+      <div class="milestone-tri-grid">
+        <!-- 30 Era -->
+        <div class="milestone-col">
+          <div class="pip-container">
+            <img src="barakat pictures/@30.jpg" alt="Barakat 30th Birthday Suit" class="pip-main-media">
+            <div class="pip-overlay-card">
+              <video src="barakat pictures/@30.mp4" autoplay loop muted playsinline></video>
+            </div>
+          </div>
+          <h3 class="milestone-title" style="color: #ff69b4; text-align: center; margin-top: 0.5rem;">Chapter 30</h3>
+        </div>
+
+        <!-- 32 Era -->
+        <div class="milestone-col">
+          <div class="pip-container">
+            <img src="barakat pictures/@32.jpg" alt="Barakat 32nd Birthday White Lace" class="pip-main-media">
+            <div class="pip-overlay-card">
+              <video src="barakat pictures/@32.mp4" autoplay loop muted playsinline></video>
+            </div>
+          </div>
+          <h3 class="milestone-title" style="color: #fff; text-align: center; margin-top: 0.5rem;">Chapter 32</h3>
+        </div>
+
+        <!-- Night Out Era -->
+        <div class="milestone-col">
+          <div class="pip-container">
+            <img src="barakat pictures/2c.jpg" alt="Barakat Crimson Gown and Fur Coat" class="pip-main-media">
+            <div class="pip-overlay-card">
+              <video src="barakat pictures/2a.mp4" autoplay loop muted playsinline></video>
+            </div>
+          </div>
+          <h3 class="milestone-title" style="color: #e57373; text-align: center; margin-top: 0.5rem;">Night Out</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SPREAD 9: ENJOYMENT GALLORIZZY (GALLERY GRID)
+         ========================================== -->
+    <section id="sisterhood" class="spread-section sisterhood-spread">
+      <div class="sisterhood-header" style="text-align: center; max-width: 800px; margin: 0 auto 2.5rem;">
+        <span class="section-tag">LIFESTYLE & TRAVEL 🥂🌴</span>
+        <h2 class="font-title" style="font-size: clamp(2.4rem, 5vw, 3.6rem); color: #fff; margin-bottom: 0.5rem;">
+          Enjoyment Gallorizzy 🥂🌴✨
+        </h2>
+        <p class="font-body" style="font-size: 1.25rem; color: var(--gold-light); font-style: italic;">
+          After hustle na to chill, celebration Confetti 🎉🥂✨
+        </p>
+      </div>
+
+      <div class="gallorizzy-grid">
+        <div class="gallorizzy-card">
+          <img src="barakat pictures/u.jpg" alt="Yacht Deck Summer Day" class="gallorizzy-img">
+        </div>
+
+        <div class="gallorizzy-card">
+          <img src="barakat pictures/v.jpg" alt="Designer Styling & Shopping" class="gallorizzy-img">
+        </div>
+
+        <div class="gallorizzy-card">
+          <img src="barakat pictures/q.jpg" alt="Golden Hour Glamour" class="gallorizzy-img">
+        </div>
+
+        <div class="gallorizzy-card">
+          <img src="barakat pictures/2019.jpg" alt="2019 Streetwear" class="gallorizzy-img">
+        </div>
+
+        <div class="gallorizzy-card">
+          <img src="barakat pictures/@30 (2).jpg" alt="Power Pink Look" class="gallorizzy-img">
+        </div>
+
+        <div class="gallorizzy-card">
+          <img src="barakat pictures/2d.jpg" alt="Crimson Dress Glamour" class="gallorizzy-img">
+        </div>
+
+        <div class="gallorizzy-card">
+          <video src="barakat pictures/@32 (2).mp4" class="gallorizzy-img" autoplay loop muted playsinline></video>
+        </div>
+
+        <div class="gallorizzy-card">
+          <video src="barakat pictures/2b.mp4" class="gallorizzy-img" autoplay loop muted playsinline></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SPREAD 10: LIVE EDITORIAL GUESTBOOK
+         ========================================== -->
+    <section id="guestbook" class="spread-section guestbook-spread">
+      <div class="guestbook-header">
+        <div>
+          <span class="section-tag">LETTERS TO THE QUEEN 💌👑</span>
+          <h2 class="font-title" style="font-size: clamp(2.4rem, 5vw, 3.6rem); color: #fff;">
+            Letters to the Queen 💖
+          </h2>
+          <p class="font-body" style="font-size: 1.3rem; color: #bbb;">
+            Real birthday praises, wishes, and memories from her husband, besties, travel crew, and family.
+          </p>
+          <div class="guestbook-filters">
+            <button class="filter-btn active" data-filter="all">All Tributes</button>
+            <button class="filter-btn" data-filter="husband">👑 Her Husband</button>
+            <button class="filter-btn" data-filter="bestie">🥂 The Inner Circle</button>
+            <button class="filter-btn" data-filter="travel">✈️ Travel Crew</button>
+            <button class="filter-btn" data-filter="family">🤍 Family and Siblings</button>
+            <button class="filter-btn" data-filter="colleague">💼 Trailblazer Peers</button>
+          </div>
+        </div>
+
+        <button id="btn-open-form-section" class="btn-nav primary" style="padding: 0.75rem 1.75rem; font-size: 0.85rem;">
+          ✍️ Add Your Tribute
+        </button>
+      </div>
+
+      <!-- Dynamic Tribute Cards (Husband Pinned First when submitted) -->
+      <div id="tributes-container" class="tributes-grid"></div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       FESTIVE POPUP MODAL (WELCOME & CONTRIBUTOR FORM)
+       ========================================== -->
+  <div id="tribute-modal" class="modal-backdrop open">
+    <div class="festive-dialog">
+      <button id="btn-close-modal" class="modal-close-btn" title="Explore the magazine first">&times;</button>
+      
+      <div style="text-align: center; margin-bottom: 1.5rem;">
+        <span style="font-size: 2.4rem; display: block; margin-bottom: 0.25rem;">🎉 🥂 👑</span>
+        <span class="section-tag">CELEBRATING VOLUME 34</span>
+        <h3 class="font-title" style="font-size: 2.1rem; color: #fff; margin: 0.25rem 0;">
+          Welcome to Aunty Barakat’s Birthday Edition!
+        </h3>
+        <p class="font-body" style="font-size: 1.25rem; color: #eed5be;">
+          Are you here to celebrate our Queen? Leave your birthday praise, heartfelt message, or upload a photo or video memory for her!
+        </p>
+      </div>
+
+      <form id="tribute-form">
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input type="text" id="input-author" class="form-input" placeholder="e.g. Your Name..." required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Your Relationship with Barakat</label>
+          <select id="select-relation" class="form-select" required>
+            <option value="husband">👑 Her Husband (Special Spotlight)</option>
+            <option value="bestie">🥂 The Inner Circle / Bestie</option>
+            <option value="travel">✈️ Travel and Adventure Buddy</option>
+            <option value="family">🤍 Family and Siblings</option>
+            <option value="colleague">💼 Colleague / Trailblazer Peer</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Your Heartfelt Words / Birthday Praise</label>
+          <textarea id="input-message" class="form-textarea" placeholder="Detail what you love about Barakat, her accomplishments, your favorite memory together, or prayers for her 34th year..." required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Attach a Photo or Video Clip (Optional)</label>
+          <input type="file" id="input-media" class="form-input" accept="image/*,video/*">
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1.25rem;">
+          <button type="submit" class="btn-nav primary" style="width: 100%; justify-content: center; padding: 0.95rem; font-size: 0.95rem;">
+            Publish My Tribute to the Magazine ✨
+          </button>
+          <button type="button" id="btn-skip-modal" style="background: none; border: none; color: #aaa; font-family: var(--font-sans); font-size: 0.85rem; cursor: pointer; text-decoration: underline; text-underline-offset: 4px;">
+            Explore the Magazine First →
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       FLIPBOOK READER OVERLAY
+       ========================================== -->
+  <div id="flipbook-overlay" class="flipbook-overlay">
+    <div style="display: flex; justify-content: space-between; width: 90vw; max-width: 1100px; margin-bottom: 1rem;">
+      <span class="nav-logo" style="color: var(--gold-light);">BARAKAT · FLIPBOOK SPREADS · VOL. 34</span>
+      <button id="btn-close-flipbook" class="btn-nav" style="border-color: #555;">✕ Exit Flipbook</button>
+    </div>
+
+    <div class="flipbook-viewport">
+      <div class="book-wrapper" id="flipbook-wrapper">
+        <div class="flipbook-page left" id="flip-page-left"></div>
+        <div class="flipbook-page right" id="flip-page-right"></div>
+      </div>
+    </div>
+
+    <div class="flipbook-nav">
+      <button id="btn-flip-prev" class="flip-btn">← Previous Spread</button>
+      <span id="flip-page-indicator" class="page-indicator">SPREAD 1 OF 6</span>
+      <button id="btn-flip-next" class="flip-btn">Next Spread →</button>
+    </div>
+  </div>
+
+  <!-- Interactive Media Lightbox Modal -->
+  <div id="media-lightbox" class="media-lightbox" aria-hidden="true">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Close Lightbox">&times;</button>
+    <div class="lightbox-stage" id="lightbox-stage"></div>
+  </div>
+
+  <!-- Invisible Background Audio: Fridayy ft. Asake — Blessings (Remix) -->
+  <audio id="bg-audio" src="Fridayy-Ft.-Asake-Blessings-Remix.mp3" loop preload="auto" playsinline style="position: fixed; top: -9999px; left: -9999px; opacity: 0; pointer-events: none; width: 1px; height: 1px;"></audio>
+
+  <!-- Load Application Scripts -->
+  <script src="supabase.js"></script>
+  <script src="anime.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
