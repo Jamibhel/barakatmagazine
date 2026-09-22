@@ -31,7 +31,7 @@ const MAGAZINE_DATA = {
   childhood: {
     title: "Look at this small girl! 👶🤍",
     subtitle: "Baby Barakat",
-    image: "barakat pictures/childhood.JPG",
+    image: "barakat pictures/childdhood 1 (1).JPG",
     quote: "Na from small she don dey carry herself with respect! 😂🤍",
     text: "Before the big sister. Before York. Before the fine outfits and all the enjoyment. This was Barakat. And somehow, even from this small, she already had that 'I know what I'm doing' look. Some things clearly never change. ❤️"
   },
