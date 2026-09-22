@@ -127,8 +127,8 @@ const MAGAZINE_DATA = {
 
   // Enjoyment Gallorizzy (Lifestyle & Travel Gallery)
   gallorizzy: {
-    title: "After all the hard work, you have to enjoy yourself.",
-    subtitle: "Enjoyment ministry 🥂😂",
+    title: "After Hustle na to Chill, Celebration Confetti",
+    subtitle: "Enjoyment Gallorizzy 🥂✨",
     moments: [
       { image: "barakat pictures/u.jpg", label: "Yacht Life ⛵" },
       { image: "barakat pictures/v.jpg", label: "Retail Therapy 🛍️" },

@@ -648,9 +648,9 @@ const FLIPBOOK_SPREADS = [
   {
     left: `
       <div>
-        <span class="section-tag">ENJOYMENT MINISTRY 🥂😂</span>
+        <span class="section-tag">ENJOYMENT GALLORIZZY 🥂✨</span>
         <img src="barakat pictures/u.jpg" style="width: 100%; height: 260px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;">
-        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">After all the hard work, you have to enjoy yourself.</h3>
+        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">After Hustle na to Chill, Celebration Confetti</h3>
         <p class="font-body" style="font-size: 1.05rem; color: #ccc;">
           Good food, good clothes, good places, good people, and plenty of pictures. 😂
         </p>
