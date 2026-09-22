@@ -7,71 +7,71 @@ const MAGAZINE_DATA = {
     firstName: "Barakat",
     honorific: "Aunty Barakat",
     praiseNames: "Omolabake Abefe",
-    title: "THE BARAKAT ISSUE",
-    subtitle: "My Sister Too Fine Abeg! Who Wan Dey Doubt Am? 👑✨",
-    edition: "Birthday Collector's Edition · Volume 34",
+    title: "BARAKAT @ 34",
+    subtitle: "My sister too fine abeg 😂❤️",
+    edition: "Birthday archive · September 2026",
     date: "September 2026",
-    coverTagline: "ICON AT 34: OUR LITTLE MOM, OUR FOREVER PRIDE"
+    coverTagline: "34 years of Barakat"
   },
 
   // Sibling Dedication Letter
   editorsLetter: {
     salutation: "Dearest Aunty Barakat,",
-    lead: "Growing up, you were not just our big sister. You were our little mom. 🤍",
+    lead: "Growing up, you were more than just our big sister. You were basically our second mum. 😂❤️",
     paragraphs: [
-      "You looked after us, guided us, and stood between us and the world whenever things were uncertain. You made sacrifices that we were too young to fully understand at the time, but today as adults, we see everything clearly. 🥺",
-      "You gave so much of yourself so that Abdullah, Jamiu, and Nike would always have a home filled with love, dignity, and direction.",
-      "Putting this magazine together is our small way of celebrating you for once. You have spent your whole life cheering for us. Today, we stand on our feet to celebrate and applaud the extraordinary woman you are! 🎉🥂"
+      "You looked after us, corrected us, protected us, and somehow always knew what was going on with everybody. We were too young to fully understand it then, but now that we are older, we see it differently. 🥺",
+      "We wanted to do something for you this year. Nothing too serious. Just a little collection of pictures, memories, stories, and messages from the people who love you.",
+      "Because you are always celebrating everybody else. Today, we are celebrating you. Happy 34th birthday, Aunty Barakat. ❤️"
     ],
-    signoff: "With all our love, respect, and deepest gratitude,",
-    signature: "Abdullah, Jamiu, and Nike"
+    signoff: "We love you plenty,",
+    signature: "Abdullah, Jamiu & Nike"
   },
 
   // Childhood Throwback
   childhood: {
-    title: "Small But Mighty! 👶🤍",
-    subtitle: "Little Aunty Barakat",
+    title: "Look at this small girl! 👶🤍",
+    subtitle: "Baby Barakat",
     image: "barakat pictures/childhood.JPG",
     quote: "Na from small she don dey carry herself with respect! 😂🤍",
-    text: "Look at that sweet smile! Long before all the big wins, Aunty Barakat has always been calm, loving, and reliable. Always our Queen! 👑✨"
+    text: "Before the big sister. Before York. Before the fine outfits and all the enjoyment. This was Barakat. And somehow, even from this small, she already had that 'I know what I'm doing' look. Some things clearly never change. ❤️"
   },
 
   // Tribute for Daddy, PaJay
   dadBlessing: {
-    title: "For Daddy, PaJay 🕊️",
-    subtitle: "What Daddy would have said to you today",
+    title: "Daddy ❤️",
+    subtitle: "If Daddy was here today...",
     image: "barakat pictures/dad/IMG_1116.PNG",
     altImage: "barakat pictures/dad/IMG_E1114.JPG",
     paragraphs: [
-      "If Daddy were here today, he would just look at you, smile that quiet PaJay smile, and shake his head in pure pride.",
-      "He would look at where you are today, how well you carry yourself, your education, and how you looked after all of us.",
-      "We know wherever Daddy is, he is so proud of you, Barakat Omolabake. You protected his name, and you made him proud in every way.",
-      "Keep shining, Aunty Barakat. Daddy is smiling down on you. 🕊️🤍"
+      "We already know Daddy would be proud of you. He would probably look at you, give you that quiet PaJay smile, and say very little. But you would know exactly what that smile meant.",
+      "He would see the woman you have become. He would see your education, the way you carry yourself, and how you have taken care of your family.",
+      "And honestly, we think he would just be happy. Happy that his daughter is doing well. Happy that you have made something of yourself.",
+      "We miss you, Daddy. And today while we are celebrating Barakat, we are thinking about you too. ❤️🕊️"
     ]
   },
 
   // Siblings Section
   siblings: {
-    title: "Our Little Mom, Aunty Barakat 🤍",
-    subtitle: "Abdullah, Jamiu, and Nike Celebrate Our One and Only",
+    title: "You didn't ask for the job, but you definitely did it.",
+    subtitle: "Our second mum, Aunty Barakat",
     image: "barakat pictures/siblings and i.JPG",
     quote: "You took care of us like your own, and we will never take that for granted 💕",
-    tribute: "Growing up, you were our little mom. You guided us, protected us, and always made sure we were okay. From Abdullah, Jamiu, and Nike: we love you so much, Aunty Barakat! 🤍",
+    tribute: "Growing up, you were our big sister. But somehow, you also became our second mum. We appreciate you more than we probably say. ❤️",
     siblingWishes: [
-      { name: "ABDULLAH 👑", message: "Thank you for always having our backs, no matter what." },
-      { name: "JAMIU 🤍", message: "Our sister, our second mom. We love you always!" },
-      { name: "NIKE 🌸", message: "My big sister and my role model forever. Happy 34th birthday!" }
+      { name: "ABDULLAH 👑", message: "Thank you for always having our backs. ❤️" },
+      { name: "JAMIU 🤍", message: "Big sister. Second mum. Permanent family member. 😂❤️" },
+      { name: "NIKE 🌸", message: "My big sister and one of the people I can always look up to. Happy 34th birthday! ❤️" }
     ]
   },
 
   // Crown & Heritage (My Sister Too Fine Abeg + Oríkì Àbẹ̀fẹ́)
   heritage: {
-    title: "My Sister Too Fine Abeg! Who Wan Dey Doubt Am? 👑🔥",
+    title: "Okay, let's be serious for a minute. Because if you know Barakat, you already know she knows how to show up. 😂",
     yorubaTitle: "Oríkì Àbẹ̀fẹ́ Omolabake",
-    subtitle: "Royalty in her blood, beauty in every step! 💅✨",
+    subtitle: "Fine girl. Yoruba woman. And she carries herself like she knows exactly who she is.",
     image: "barakat pictures/1a.jpg",
     video: "barakat pictures/1b.mp4",
-    quote: "Step aside! Yoruba royalty is in the building! 😍💃",
+    quote: "Fine girl. Yoruba woman. And she carries herself like she knows exactly who she is.",
     orikiYoruba: `
       Àbẹ̀fẹ́ o!<br>
       Ẹni a bẹ̀ kí a tóó fẹ́, ẹni tí gbogbo ayé ń bẹ̀ láti nífẹ̀ẹ́.<br>
@@ -88,8 +88,8 @@ const MAGAZINE_DATA = {
 
   // Academics: York University
   academics: {
-    title: "Aunty Barakat, We Are So Proud of Where You Are Today! 🎓🌹",
-    subtitle: "York University Degree & The Standard of Excellence",
+    title: "From our sister to a York graduate.",
+    subtitle: "Look at you now",
     images: [
       "barakat pictures/Graduation.jpg",
       "barakat pictures/Graduation (2).jpg"
@@ -101,34 +101,34 @@ const MAGAZINE_DATA = {
       "barakat pictures/Graduation (3).mp4",
       "barakat pictures/Graduation (4).mp4"
     ],
-    quote: "Bagged that York degree and made the whole family proud! 📚🥂✨",
-    text: "Seeing you walk across that stage at York University was one of our happiest days. Even with everything on your plate, you still pushed and finished strong. We will never stop bragging with you! 🎓🎉"
+    quote: "We were proud watching you graduate from York. You worked for it, you finished it, and you gave us another reason to brag about you. 😂",
+    text: "We were proud watching you graduate from York. You worked for it, you finished it, and you gave us another reason to brag about you. And yes, we will continue reminding everybody that our sister went to York. Because why not? 😂🎓 Honestly though, we are proud of you. Not just because of the degree, but because of everything it took to get there. Congrats again, Aunty Barakat. ❤️"
   },
 
-  // Glamour Archives (If You Still Dey Doubt Am, Look At How Person Fine!)
+  // Glamour Archives
   milestones: {
-    title: "If You Still Dey Doubt Am, Look At How Person Fine! 💅✨💖",
-    subtitle: "From Chapter 30 to 32 and Night Glamour: She Never Misses!",
+    title: "At this point, nobody is arguing anymore.",
+    subtitle: "Okay, we get it. You're fine. 😂",
     at30: {
-      title: "Chapter 30: That Pink Fit! 💖🔥",
+      title: "Chapter 30",
       image: "barakat pictures/@30.jpg",
       altImage: "barakat pictures/@30 (2).jpg",
       video: "barakat pictures/@30.mp4",
-      caption: "Big 30 in all pink! Omo, see drip na! 🔥"
+      caption: "That birthday look. 🔥"
     },
     at32: {
-      title: "Chapter 32: Rooftop Vibes 🤍✨",
+      title: "Chapter 32",
       image: "barakat pictures/@32.jpg",
       video: "barakat pictures/@32.mp4",
       altVideo: "barakat pictures/@32 (2).mp4",
-      caption: "Turning 32 on the rooftop. Clean and flawless, no cap! 🕊️"
+      caption: "Still doing what she does best. 🤍"
     }
   },
 
   // Enjoyment Gallorizzy (Lifestyle & Travel Gallery)
   gallorizzy: {
-    title: "Enjoyment Gallorizzy 🥂🌴✨",
-    subtitle: "After hustle na to chill, celebration Confetti 🎉🥂✨",
+    title: "After all the hard work, you have to enjoy yourself.",
+    subtitle: "Enjoyment ministry 🥂😂",
     moments: [
       { image: "barakat pictures/u.jpg", label: "Yacht Life ⛵" },
       { image: "barakat pictures/v.jpg", label: "Retail Therapy 🛍️" },
@@ -147,7 +147,7 @@ const MAGAZINE_DATA = {
   initialTributes: [
     {
       name: "Abdullah, Jamiu, and Nike",
-      relation: "🤍 Siblings (Our Little Mom)",
+      relation: "🤍 Family",
       tag: "family",
       isHusband: false,
       message: "Happy 34th Birthday, Aunty Barakat! Thank you for being our pillar, our guide, and our greatest blessing. We love you with all our hearts! 🎂💖",

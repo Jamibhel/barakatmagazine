@@ -568,37 +568,37 @@ const FLIPBOOK_SPREADS = [
   {
     left: `
       <div style="text-align: center; padding-top: 4rem;">
-        <span class="section-tag">COLLECTOR'S EDITION</span>
+        <span class="section-tag">34 YEARS OF BARAKAT</span>
         <h1 class="font-title gold-text" style="font-size: 3.8rem; margin: 1rem 0;">BARAKAT</h1>
         <p class="font-display" style="font-size: 1rem; letter-spacing: 0.3em; color: var(--gold-light);">BELLO BARAKAT OMOLABAKE ABEFE</p>
         <p class="font-body" style="font-size: 1.35rem; margin-top: 2rem; color: #ccc; font-style: italic;">
-          Volume 34 · A celebration of grace, resilience, and sisterly love.
+          September 23, 2026 · a little family archive of love, laughs, and memories.
         </p>
       </div>
     `,
     right: `
       <div style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <img src="barakat pictures/@30.jpg" style="width: 80%; height: 75%; object-fit: cover; border-radius: 8px; border: 2px solid var(--gold-primary);">
-        <p class="font-display" style="font-size: 0.75rem; letter-spacing: 0.2em; color: var(--gold-light); margin-top: 1rem;">COVER STAR · VOLUME 34</p>
+        <p class="font-display" style="font-size: 0.75rem; letter-spacing: 0.2em; color: var(--gold-light); margin-top: 1rem;">COVER STAR · 34 YEARS</p>
       </div>
     `
   },
   {
     left: `
       <div>
-        <span class="section-tag">DEDICATION</span>
+        <span class="section-tag">A LITTLE SOMETHING FOR YOU</span>
         <h2 class="font-title" style="font-size: 2rem; color: var(--gold-light); margin-bottom: 1rem;">Dearest Aunty Barakat,</h2>
         <p class="font-body" style="font-size: 1.15rem; line-height: 1.8; color: #ddd;">
-          Growing up, you were not just our big sister. You were our little mom. You looked after us, guided us, and stood between us and the world. Putting this magazine together is our small way of celebrating you.
+          Growing up, you were more than just our big sister. You were basically our second mum. You looked after us, corrected us, protected us, and somehow always knew what was going on with everybody.
         </p>
-        <p class="font-serif-title" style="font-size: 1.4rem; color: var(--gold-primary); margin-top: 1.5rem;">Abdullah, Jamiu, and Nike</p>
+        <p class="font-serif-title" style="font-size: 1.4rem; color: var(--gold-primary); margin-top: 1.5rem;">Abdullah, Jamiu & Nike ❤️</p>
       </div>
     `,
     right: `
       <div style="text-align: center;">
         <span class="section-tag">EARLY MEMORIES</span>
         <img src="barakat pictures/childhood.JPG" style="width: 75%; height: 280px; object-fit: cover; border-radius: 4px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); margin: 0 auto;">
-        <h3 class="font-title" style="font-size: 1.5rem; color: #fff; margin-top: 1rem;">Small But Mighty! 👶🤍</h3>
+        <h3 class="font-title" style="font-size: 1.5rem; color: #fff; margin-top: 1rem;">Look at this small girl! 😂</h3>
         <p class="font-body" style="font-size: 1.1rem; color: #bbb; font-style: italic;">“Na from small she don dey carry herself with respect! 😂🤍”</p>
       </div>
     `
@@ -606,13 +606,13 @@ const FLIPBOOK_SPREADS = [
   {
     left: `
       <div style="padding-top: 1rem;">
-        <span class="section-tag">FOR DADDY, PAJAY</span>
-        <h2 class="font-title" style="font-size: 1.85rem; color: var(--gold-light);">What Daddy Would Have Said</h2>
+        <span class="section-tag">DADDY ❤️</span>
+        <h2 class="font-title" style="font-size: 1.85rem; color: var(--gold-light);">If Daddy was here today...</h2>
         <p class="font-serif-body" style="font-size: 1.15rem; line-height: 1.75; color: #edd9be; margin-top: 1rem;">
-          If Daddy were here today, he would just look at you, smile that quiet PaJay smile, and shake his head in pure pride.
+          We already know Daddy would be proud of you. He would probably look at you, give you that quiet PaJay smile, and say very little. But you would know exactly what that smile meant.
         </p>
         <p class="font-serif-body" style="font-size: 1.1rem; color: var(--gold-primary); margin-top: 1rem; font-style: italic;">
-          We know wherever Daddy is, he is so proud of you. Keep shining, Aunty Barakat. 🕊️🤍
+          We miss you, Daddy. And today, while we are celebrating Barakat, we are thinking about you too. ❤️🕊️
         </p>
       </div>
     `,
@@ -626,9 +626,9 @@ const FLIPBOOK_SPREADS = [
   {
     left: `
       <div>
-        <span class="section-tag">OUR LITTLE MOM</span>
+        <span class="section-tag">OUR SECOND MUM</span>
         <img src="barakat pictures/siblings and i.JPG" style="width: 100%; height: 260px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;">
-        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">Our Little Mom 🤍</h3>
+        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">You didn't ask for the job, but you definitely did it.</h3>
         <p class="font-body" style="font-size: 1.05rem; color: #ccc;">
           “You took care of us like your own, and we will never take that for granted 💕”
         </p>
@@ -636,11 +636,11 @@ const FLIPBOOK_SPREADS = [
     `,
     right: `
       <div>
-        <span class="section-tag">ROYALTY IN HER BLOOD 👑💃</span>
+        <span class="section-tag">MY SISTER TOO FINE ABEG 😂</span>
         <img src="barakat pictures/1a.jpg" style="width: 100%; height: 260px; object-fit: cover; border-radius: 6px; border: 1px solid var(--gold-primary); margin-bottom: 1rem;">
-        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">My Sister Too Fine Abeg! 👑🔥</h3>
+        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">Okay, let's be serious for a minute.</h3>
         <p class="font-serif-body" style="font-size: 1.05rem; color: var(--gold-light); font-style: italic;">
-          Àbẹ̀fẹ́ o! Ẹni a bẹ̀ kí a tóó fẹ́, ẹni tí gbogbo ayé ń bẹ̀ láti nífẹ̀ẹ́... 🤍✨
+          Fine girl. Yoruba woman. And she carries herself like she knows exactly who she is. 🤍✨
         </p>
       </div>
     `
@@ -648,21 +648,21 @@ const FLIPBOOK_SPREADS = [
   {
     left: `
       <div>
-        <span class="section-tag">LIFESTYLE & TRAVEL 🥂🌴</span>
+        <span class="section-tag">ENJOYMENT MINISTRY 🥂😂</span>
         <img src="barakat pictures/u.jpg" style="width: 100%; height: 260px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;">
-        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">Enjoyment Gallorizzy 🥂🌴</h3>
+        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">After all the hard work, you have to enjoy yourself.</h3>
         <p class="font-body" style="font-size: 1.05rem; color: #ccc;">
-          Yacht days, retail therapy, and living life to the absolute fullest!
+          Good food, good clothes, good places, good people, and plenty of pictures. 😂
         </p>
       </div>
     `,
     right: `
       <div>
-        <span class="section-tag">FASHION & STYLE 🛍️✨</span>
+        <span class="section-tag">FINE GIRL ENERGY 💅</span>
         <img src="barakat pictures/v.jpg" style="width: 100%; height: 260px; object-fit: cover; border-radius: 6px; border: 1px solid var(--gold-primary); margin-bottom: 1rem;">
-        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">Always In Style 💅</h3>
+        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">At this point, nobody is arguing anymore.</h3>
         <p class="font-serif-body" style="font-size: 1.05rem; color: var(--gold-light); font-style: italic;">
-          Gucci bags, golden hour glows, and unmatched queen energy!
+          We have seen enough evidence. This is just a reminder of how person fine she is. 😂
         </p>
       </div>
     `
@@ -670,11 +670,11 @@ const FLIPBOOK_SPREADS = [
   {
     left: `
       <div>
-        <span class="section-tag">PROUD OF YOU 🎓🌹</span>
+        <span class="section-tag">LOOK AT YOU NOW 🎓❤️</span>
         <img src="barakat pictures/Graduation.jpg" style="width: 100%; height: 260px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;">
-        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">York University Triumph! 🎓</h3>
+        <h3 class="font-title" style="font-size: 1.35rem; color: #fff;">From our sister to a York graduate.</h3>
         <p class="font-body" style="font-size: 1.05rem; color: #ccc;">
-          Bagged that York degree and made the whole family proud! We will never stop bragging with you! 🎓🎉
+          We were proud watching you graduate from York. You worked for it, you finished it, and you gave us another reason to brag about you. 😂
         </p>
       </div>
     `,
@@ -683,10 +683,10 @@ const FLIPBOOK_SPREADS = [
         <div style="font-size: 3.5rem; margin-bottom: 1rem;">👑 🥂 🎂</div>
         <h2 class="font-title gold-text" style="font-size: 2.2rem;">Happy 34th Birthday, Aunty Barakat!</h2>
         <p class="font-body" style="font-size: 1.2rem; color: #ddd; margin-top: 1rem;">
-          To our little mom, our queen, and our forever pride. May your 34th year overflow with joy, peace, and endless blessings!
+          To our little mum, our queen, and our forever pride. May your 34th year be filled with joy, peace, and plenty of reasons to smile.
         </p>
         <p class="font-display" style="font-size: 0.85rem; letter-spacing: 0.25em; color: var(--gold-primary); margin-top: 2rem;">
-          WITH LOVE FROM ABDULLAH, JAMIU, AND NIKE 💕
+          ALWAYS LOVED BY ABDULLAH, JAMIU, AND NIKE ❤️
         </p>
       </div>
     `
