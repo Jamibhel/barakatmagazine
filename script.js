@@ -75,18 +75,12 @@ function initAutoplayVideos() {
   const videos = document.querySelectorAll('video');
   videos.forEach(video => {
     video.muted = true;
-    video.autoplay = true;
     video.playsInline = true;
     video.loop = true;
+    video.preload = 'metadata';
     video.setAttribute('muted', '');
-    video.setAttribute('autoplay', '');
     video.setAttribute('playsinline', '');
     video.setAttribute('loop', '');
-    
-    const p = video.play();
-    if (p !== undefined) {
-      p.catch(() => {});
-    }
   });
 
   if ('IntersectionObserver' in window) {
@@ -94,17 +88,21 @@ function initAutoplayVideos() {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.play().catch(() => {});
+        } else {
+          entry.target.pause(); // Immediately pause videos scrolled out of view to free phone GPU & RAM!
         }
       });
-    }, { threshold: 0.15 });
+    }, { threshold: 0.1 });
 
     videos.forEach(v => observer.observe(v));
   }
 
   const kickstart = () => {
-    videos.forEach(v => v.play().catch(() => {}));
-    window.removeEventListener('click', kickstart);
-    window.removeEventListener('touchstart', kickstart);
+    const visibleVideos = Array.from(videos).filter(v => {
+      const rect = v.getBoundingClientRect();
+      return rect.top < window.innerHeight && rect.bottom > 0;
+    });
+    visibleVideos.forEach(v => v.play().catch(() => {}));
   };
   window.addEventListener('click', kickstart, { once: true });
   window.addEventListener('touchstart', kickstart, { once: true });

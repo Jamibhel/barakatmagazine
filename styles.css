@@ -1827,6 +1827,62 @@ body {
     padding: 2.5rem 1.25rem;
   }
 
+  /* Cover Spread Mobile Un-obscured Portrait Layout */
+  .cover-spread {
+    min-height: auto !important;
+    padding: 2rem 1.15rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.25rem !important;
+    background: radial-gradient(circle at 50% 0%, #171520 0%, #0a090e 100%) !important;
+  }
+
+  .cover-bg-image {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: 380px !important;
+    max-height: 52vh !important;
+    object-fit: cover !important;
+    object-position: center 20% !important;
+    border-radius: 16px !important;
+    opacity: 1 !important;
+    filter: none !important;
+    border: 1.5px solid rgba(212, 175, 55, 0.5) !important;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.85), 0 0 30px rgba(212, 175, 55, 0.25) !important;
+    z-index: 3 !important;
+    order: 2 !important;
+  }
+
+  .cover-overlay {
+    display: none !important;
+  }
+
+  .cover-header {
+    order: 1 !important;
+  }
+
+  .cover-body {
+    order: 3 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.25rem !important;
+    margin-top: 0 !important;
+  }
+
+  .cover-stories {
+    max-width: 100% !important;
+    gap: 0.85rem !important;
+  }
+
+  .cover-story-item {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-left: 3px solid var(--gold-primary) !important;
+    border-radius: 0 12px 12px 0 !important;
+    padding: 0.85rem 1.15rem !important;
+  }
+
   .cover-body,
   .editorial-grid,
   .vintage-spread,
