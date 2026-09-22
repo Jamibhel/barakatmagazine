@@ -940,6 +940,7 @@ function initMediaLightbox() {
 }
 
 function initCardHoverTilt() {
+  if (window.innerWidth <= 768) return;
   const tiltElements = document.querySelectorAll('.gallorizzy-card, .milestone-col, .sibling-badge-card');
   tiltElements.forEach(card => {
     card.addEventListener('mousemove', (e) => {
@@ -1077,6 +1078,7 @@ function initParallaxSections() {
 }
 
 function initCursorGlowTrail() {
+  if (window.innerWidth <= 768) return;
   const glow = document.createElement('div');
   glow.style.position = 'fixed';
   glow.style.width = '240px';
