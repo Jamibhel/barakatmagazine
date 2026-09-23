@@ -384,6 +384,8 @@ function initGuestbook() {
   // Enable Realtime live updates
   subscribeToCloudTributes();
 
+  syncGuestbookRelationOptions();
+
   // Filter buttons
   const filterBtns = document.querySelectorAll('.filter-btn');
   filterBtns.forEach(btn => {
@@ -409,6 +411,12 @@ function initGuestbook() {
       const mediaInput = document.getElementById('input-media');
 
       if (!author || !message) return;
+
+      if (relationTag === 'husband' && hasExistingHusbandTribute()) {
+        const bestieSelect = document.getElementById('select-relation');
+        if (bestieSelect) bestieSelect.value = 'bestie';
+        return;
+      }
 
       const isHusband = (relationTag === 'husband');
 
@@ -471,6 +479,7 @@ async function saveAndPublishTribute(tribute, originalFile) {
   document.getElementById('tribute-form').reset();
 
   // Re-render and trigger celebration
+  syncGuestbookRelationOptions();
   renderTributes('all');
   triggerGoldenConfetti();
 
@@ -481,9 +490,43 @@ async function saveAndPublishTribute(tribute, originalFile) {
   }
 }
 
+function hasExistingHusbandTribute() {
+  return allTributes.some(tribute => tribute.isHusband || tribute.tag === 'husband');
+}
+
+function syncGuestbookRelationOptions() {
+  const husbandExists = hasExistingHusbandTribute();
+
+  const select = document.getElementById('select-relation');
+  if (select) {
+    const husbandOption = Array.from(select.options).find(option => option.value === 'husband');
+    if (husbandOption) {
+      husbandOption.hidden = husbandExists;
+      husbandOption.disabled = husbandExists;
+      if (husbandExists && select.value === 'husband') {
+        select.value = 'bestie';
+      }
+    }
+  }
+
+  const husbandFilter = document.querySelector('.filter-btn[data-filter="husband"]');
+  if (husbandFilter) {
+    husbandFilter.style.display = husbandExists ? 'none' : '';
+    if (husbandExists && document.querySelector('.filter-btn.active')?.getAttribute('data-filter') === 'husband') {
+      const allButton = document.querySelector('.filter-btn[data-filter="all"]');
+      if (allButton) {
+        document.querySelectorAll('.filter-btn').forEach(button => button.classList.remove('active'));
+        allButton.classList.add('active');
+        renderTributes('all');
+      }
+    }
+  }
+}
+
 function renderTributes(filter = 'all') {
   const container = document.getElementById('tributes-container');
   if (!container) return;
+  syncGuestbookRelationOptions();
   container.innerHTML = '';
 
   let filtered = allTributes;
