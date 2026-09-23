@@ -1538,8 +1538,7 @@ body {
 .tribute-card .tribute-media-thumb {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: none;
+  height: 220px;
   object-fit: contain;
   border-radius: 10px;
   margin-bottom: 1rem;
@@ -1548,7 +1547,7 @@ body {
 }
 
 .tribute-card video.tribute-media-thumb {
-  height: 260px;
+  height: 220px;
   object-fit: cover;
 }
 
