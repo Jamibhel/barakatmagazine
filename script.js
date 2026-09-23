@@ -559,9 +559,9 @@ function renderTributes(filter = 'all') {
     let mediaHtml = '';
     if (item.mediaUrl) {
       if (item.mediaType === 'video') {
-        mediaHtml = `<video src="${item.mediaUrl}" controls class="tribute-media-thumb" style="max-height: 240px; border-radius: 8px; margin-bottom: 1rem; width: 100%; object-fit: cover;"></video>`;
+        mediaHtml = `<video src="${item.mediaUrl}" controls class="tribute-media-thumb" style="height: 260px; border-radius: 8px; margin-bottom: 1rem; width: 100%; object-fit: cover;"></video>`;
       } else {
-        mediaHtml = `<img src="${item.mediaUrl}" alt="Tribute memory" class="tribute-media-thumb" style="max-height: 240px; border-radius: 8px; margin-bottom: 1rem; width: 100%; object-fit: cover;">`;
+        mediaHtml = `<img src="${item.mediaUrl}" alt="Tribute memory" class="tribute-media-thumb" style="height: auto; border-radius: 8px; margin-bottom: 1rem; width: 100%; object-fit: contain;">`;
       }
     }
 
